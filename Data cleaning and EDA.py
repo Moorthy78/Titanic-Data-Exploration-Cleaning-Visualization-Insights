@@ -9,7 +9,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-file_path = "Untitled Folder 1/titanic.csv"  
 df = pd.read_csv("titanic.csv")
 
 print("🔹 First 5 Rows:\n", df.head())
